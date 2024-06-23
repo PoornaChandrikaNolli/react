@@ -1,11 +1,12 @@
 import React from 'react';
+import ImageGallery from './components/ImageGallery';
 import './App.css';
-import Calculator from './Calculator';
 
 function App() {
   return (
     <div className="App">
-      <Calculator />
+      <h1>Image Gallery</h1>
+      <ImageGallery />
     </div>
   );
 }
